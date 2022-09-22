@@ -58,6 +58,12 @@
         color: white;
         font-size: 1.2rem;
 
+        :hover,
+        .router-link-exact-active {
+         color: #3f53f3;
+          cursor: pointer;
+        }
+
         * {
           margin: 0.4rem;
           color: white;
